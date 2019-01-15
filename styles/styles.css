@@ -1,0 +1,94 @@
+.back-btn {
+    width: 100px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    margin: auto;
+    font-family: arial;
+    vertical-align: middle;
+}
+
+.container {
+    margin: 150px auto 0;
+    width: 800px;
+}
+
+.courses {
+    margin-left: 50px;
+    width: 350px;
+}
+
+.header {
+    background-color: #000;
+    color: white;
+    height: 100%;
+    width: 100%;
+}
+
+.header h2 {
+    margin: 0;
+    padding: 15px;
+    text-align: center;
+}
+
+.links {
+    color: black;
+}
+
+.profile {
+    max-width: 350px;
+    text-align: center;
+}
+
+.quiz-question {
+    padding-left: 10px;
+}
+
+.title {
+    color: grey;
+    font-size: 18px;
+}
+
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+p {
+    margin: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+ul li {
+    border: 1px solid #ddd;
+    margin-top: -1px; /* Prevent double borders */
+    background-color: #f6f6f6;
+    padding: 12px;
+  }
+
+button:hover, a:hover {
+    opacity: 0.7;
+}
