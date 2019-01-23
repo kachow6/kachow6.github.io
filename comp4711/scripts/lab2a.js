@@ -5,7 +5,7 @@ let makeBtns = (function() {
 
     alphabet.forEach(function(letter) {
         let element = document.createElement("button");
-        element.setAttribute("class", "alphabet");
+        element.setAttribute("id", "alphabet");
         element.innerHTML = letter;
         element.onclick = function() { alert(letter); }
         document.getElementById('btns').appendChild(element);
