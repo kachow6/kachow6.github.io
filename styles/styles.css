@@ -1,3 +1,12 @@
+.alphabet {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    height: 40px;
+    margin: 1px;
+    width: 40px;
+}
+
 .back-btn {
     width: 100px;
 }
@@ -44,6 +53,10 @@
 
 .quiz-question {
     padding-left: 10px;
+}
+
+.sub-list {
+    padding-top: 5px;
 }
 
 .title {

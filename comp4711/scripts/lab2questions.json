@@ -1,0 +1,52 @@
+[
+    {
+        "question": "What is the name of the browser developer tools tab that allows you to test JavaScript code snippets?",
+        "choices": {
+            "1": "Elements",
+            "2": "Console",
+            "3": "Sources",
+            "4": "Network"
+        },
+        "answer": 2
+    },
+    {
+        "question": "What does the \"defer\" tag do in an HTML &ltscript&gt element?",
+        "choices": {
+            "1": "Defers loading of JavaScript code until all HTML elements have been loaded",
+            "2": "Skips this &ltscript&gt element until all other &ltscript&gt elements have been loaded",
+            "3": "Defers loading of all HTML elements until all JavaScript code has been loaded and run",
+            "4": "Loads this &ltscript&gt element before all other &ltscript&gt elements"
+        },
+        "answer": 1
+    },
+    {
+        "question": "What is the output of the following code?<div class=\"quiz-question\"><p>var arr = [5, 3, 1, 2, 4, 1, 7, 9, 0, 8];<br><br>for (let i = 0; i &lt 10; i++) {<br>&nbsp&nbsp&nbsp&nbsp if (i &lt 5)<br>&nbsp&nbsp&nbsp&nbsp console.log(arr[i] + i);<br>}</p></div>",
+        "choices": {
+            "1": "01234",
+            "2": "32356",
+            "3": "53124",
+            "4": "54358"
+        },
+        "answer": 4
+    },
+    {
+        "question": "How does an anonymous function expression differ from a normal anonymous function?",
+        "choices": {
+            "1": "An anonymous function expression stores its result in a variable",
+            "2": "An anonymous function expression is executed immediately after it has been declared",
+            "3": "An anonymous function expression cannot be explicitly referenced",
+            "4": "An anonymous function expression has access to both global and local scope variables"
+        },
+        "answer": 2
+    },
+    {
+        "question": "Which of the following methods are valid examples of object property access in JavaScript?<div class=\"quiz-question\"><p>1) var val = object.property;<br>2) var val = object[\"property\"];</p></div>",
+        "choices": {
+            "1": "Method 1 is valid and method 2 is not valid",
+            "2": "Method 2 is valid and method 1 is not valid",
+            "3": "Method 1 and method 2 are both valid",
+            "4": "Method 1 and method 2 are both invalid"
+        },
+        "answer": 3
+    }
+]
