@@ -1,4 +1,4 @@
-#alphabet {
+.alphabet {
     background-color: white;
     border: 1px solid black;
     color: black;
@@ -9,6 +9,19 @@
 
 .back-btn {
     width: 100px;
+}
+
+.black-button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
 }
 
 .card {
@@ -61,19 +74,6 @@
 
 .title {
     color: grey;
-    font-size: 18px;
-}
-
-button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
-    color: white;
-    background-color: #000;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
     font-size: 18px;
 }
 
