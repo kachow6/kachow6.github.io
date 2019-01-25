@@ -20,7 +20,7 @@
         "answer": 1
     },
     {
-        "question": "What is the output of the following code?<div class=\"quiz-question\"><p>var arr = [5, 3, 1, 2, 4, 1, 7, 9, 0, 8];<br><br>for (let i = 0; i &lt 10; i++) {<br>&nbsp&nbsp&nbsp&nbsp if (i &lt 5)<br>&nbsp&nbsp&nbsp&nbsp console.log(arr[i] + i);<br>}</p></div>",
+        "question": "What is the output of the following code?<div class=\"quiz-question\"><p><span style=\"color: blue\">let</span> arr = [5, 3, 1, 2, 4, 1, 7, 9, 0, 8];<br><br>for (<span style=\"color: blue\">let</span> i = 0; i &lt 10; i++) {<br>&nbsp&nbsp&nbsp&nbsp if (i &lt 5)<br>&nbsp&nbsp&nbsp&nbsp console.log(arr[i] + i);<br>}</p></div>",
         "choices": {
             "1": "01234",
             "2": "32356",
@@ -40,7 +40,7 @@
         "answer": 2
     },
     {
-        "question": "Which of the following methods are valid examples of object property access in JavaScript?<div class=\"quiz-question\"><p>1) var val = object.property;<br>2) var val = object[\"property\"];</p></div>",
+        "question": "Which of the following methods are valid examples of object property access in JavaScript?<div class=\"quiz-question\"><p>1) <span style=\"color: blue\">let</span> val = object.property;<br>2) <span style=\"color: blue\">let</span> val = object[\"property\"];</p></div>",
         "choices": {
             "1": "Method 1 is valid and method 2 is not valid",
             "2": "Method 2 is valid and method 1 is not valid",
