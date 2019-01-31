@@ -42,6 +42,10 @@
     width: 350px;
 }
 
+.notification-msg {
+    display: none;
+}
+
 .header {
     background-color: #000;
     color: white;

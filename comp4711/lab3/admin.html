@@ -1,20 +1,69 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" type="text/css" href="/styles/lab3.css">
         <link rel="stylesheet" type="text/css" href="/styles/styles.css">
+        <script src="../scripts/lab3_admin.js" defer></script>
     </head>
 
     <body>
-        <div>
-            <p>Question Text *</p>
-            <textarea id="question" type="text"></textarea>
+        <div class="header">
+            <h2>Create a Quiz</h2>
         </div>
         <div>
-            <p>Answers *</p>
-            <input type="radio" name="answers"><input type="text"><br>
-            <input type="radio" name="answers"><input type="text"><br>
-            <input type="radio" name="answers"><input type="text"><br>
-            <input type="radio" name="answers"><input type="text">
+            <div id="current-questions"></div>
+
+            <div class="new-question-form">
+                <div>
+                    <p id="new-question-title" class="new-question-title">New Question Text *</p>
+                    <textarea id="question" class="question-text" type="text" rows="5" cols="50"></textarea>
+                </div>
+                <div>
+                    <p class="new-question-title">Answers *</p>
+                    <div class="question-answer">
+                        <label class="container">
+                            <input id="radiobtn1" type="radio" name="answer" checked>
+                            <span class="checkmark"></span>
+                            <textarea id="answer1" cols="44" class="question-answer-text"></textarea></br>
+                        </label>
+                    </div>
+                    <div class="question-answer">
+                        <label class="container">
+                            <input id="radiobtn2" type="radio" name="answer">
+                            <span class="checkmark"></span>
+                            <textarea id="answer2" cols="44" class="question-answer-text"></textarea></br>
+                        </label>
+                    </div>
+                    <div class="question-answer">
+                        <label class="container">
+                            <input id="radiobtn3" type="radio" name="answer">
+                            <span class="checkmark"></span>
+                            <textarea id="answer3" cols="44" class="question-answer-text"></textarea></br>
+                        </label>
+                    </div>
+                    <div class="question-answer">
+                        <label class="container">
+                            <input id="radiobtn4" type="radio" name="answer">
+                            <span class="checkmark"></span>
+                            <textarea id="answer4" cols="44" class="question-answer-text"></textarea></br>
+                        </label>
+                    </div>
+                </div>
+                <div id="new-question-notification" class="notification-msg">
+                    <p id="new-question-notification-text"></p>
+                </div>
+                <div class="back-btn">
+                    <button id="new-question-submit" class="black-button" onclick="stateModule.saveQuestion()">Add</button>
+                    <button id="update-question-submit" class="black-button" onclick="stateModule.updateQuestion()">Update</button>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="back-btn">
+                <button id="save-btn" class="black-button" onclick="stateModule.storeQuiz()">Save</button>
+                <a href="../home.html"><button class="black-button">Back</button></a>
+            </div>
         </div>
     </body>
 </html>

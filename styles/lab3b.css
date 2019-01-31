@@ -1,0 +1,17 @@
+
+#quiz {
+    margin: 10px auto;
+    max-width: 380px;
+}
+
+.quiz-question-text {
+    padding: 5px;
+}
+
+.quiz-question-answer {
+    margin-left: 5px;
+}
+
+#submit-btn {
+    margin-bottom: 8px;
+}
