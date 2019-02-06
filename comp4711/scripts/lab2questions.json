@@ -48,5 +48,105 @@
             "4": "Method 1 and method 2 are both invalid"
         },
         "answer": 3
+    },
+    {
+        "question": "What does the <strong>this</strong> keyword refer to in JavaScript?",
+        "choices": {
+            "1": "the Document Object Model (DOM)",
+            "2": "the object <strong>this</strong> belongs to",
+            "3": "the browser client",
+            "4": "the programmer who wrote the code"
+        },
+        "answer": 2
+    },
+    {
+        "question": "What does the JavaScript Global object look like in the browser window?",
+        "choices": {
+            "1": "[object Window]",
+            "2": "[Global Object]",
+            "3": "[object]",
+            "4": "[global Window]"
+        },
+        "answer": 1
+    },
+    {
+        "question": "What does JavaScript strict mode do to binding the <strong>this</strong> keyword?",
+        "choices": {
+            "1": "makes it null",
+            "2": "attaches it to the DOM",
+            "3": "makes it undefined",
+            "4": "does nothing"
+        },
+        "answer": 3
+    },
+    {
+        "question": "What does the <strong>this</strong> keyword refer to in a JavaScript Event Handler?",
+        "choices": {
+            "1": "the HTML element that <strong>this</strong> is passing to",
+            "2": "the HTML element that received the event",
+            "3": "the Global object",
+            "4": "the DOM"
+        },
+        "answer": 2
+    },
+    {
+        "question": "When writing a function in a JavaScript object declaration, what does <strong>this</strong> refer to?",
+        "choices": {
+            "1": "the DOM",
+            "2": "the object Window",
+            "3": "the function the object is declared in",
+            "4": "the object the function is declared in"
+        },
+        "answer": 4
+    },
+    {
+        "question": "What is the top level object in the Browser Object Model (BOM)?",
+        "choices": {
+            "1": "the window",
+            "2": "the wall",
+            "3": "the Global object",
+            "4": "the browser"
+        },
+        "answer": 1
+    },
+    {
+        "question": "What is the difference between the document.querySelector() and document.querySelectorAll() functions?",
+        "choices": {
+            "1": "querySelector() can only be used to select via element id",
+            "2": "querySelectorAll() retrieves all elements with the associated tags",
+            "3": "querySelector() retrieves a single record from a database",
+            "4": "querySelectorAll() selects all nodes in the DOM"
+        },
+        "answer": 2
+    },
+    {
+        "question": "How do you prevent the default behaviour of an event object from triggering?",
+        "choices": {
+            "1": "Use the preventDefault() function on the element object",
+            "2": "Use the setDefault attribute on the event object to \"none\"",
+            "3": "Use the setDefault attribute on the element object to \"none\"",
+            "4": "Use the preventDefault() function on the event object"
+        },
+        "answer": 4
+    },
+    {
+        "question": "Which JavaScript function allows you to attach multiple event handler functions to an event object?",
+        "choices": {
+            "1": "addListenerEvent()",
+            "2": "addEvent()",
+            "3": "addListener()",
+            "4": "addEventListener()"
+        },
+        "answer": 4
+    },
+    {
+        "question": "What is the difference between the <strong>break</strong> and <strong>continue</strong> loop statements?",
+        "choices": {
+            "1": "<strong>break</strong> ends the current loop and moves to the next statement while <strong>continue</strong> skips the current loop iteration",
+            "2": "<strong>break</strong> stops the script from running while <strong>continue</strong> restarts the script where the breaking call was made",
+            "3": "<strong>break</strong> skips the current loop iteration while <strong>continue</strong> ends the current loop and moves to the next statement",
+            "4": "<strong>break</strong> pauses the loops iteration while <strong>continue</strong> restarts the loops iteration where the breaking call was made"
+        },
+        "answer": 1
     }
 ]
