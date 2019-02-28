@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: kachow6.github.io
+Token: 0709615fe2cfda60d7d95e1e5d0fcce1062e23cd22ce2c0f387d547d03eb70fb
